@@ -9,11 +9,25 @@ The paper with full details regarding this invention can be found [here](https:/
 
 ## Overview
 
-[TODO]
+In order to be used, the implemented protocol requires two units of the [YARD Stick One](https://greatscottgadgets.com/yardstickone/). One of them will act as a key fob, and the other one as a device we want to control. Like this, the device could implement different functions to be performed, and the fob will authenticate its owner.
 
 ## Usage
 
-[TODO]
+First install the **rflib** module for python, found in the [RfCat](https://github.com/atlas0fd00m/rfcat) project, and also the [Blake2](https://blake2.net/) module:
+
+```
+git clone https://github.com/atlas0fd00m/rfcat
+cd rfcat
+sudo python setup.py
+pip install pyblake2
+```
+Now you can get the help by executing:
+
+```
+git clone https://github.com/xevisalle/laser.git
+cd laser
+sudo python laser.py
+```
 
 ## Authors
 
